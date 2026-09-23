@@ -1,0 +1,28 @@
+1. ¿Cuál es la diferencia entre Git y GitHub?
+Respuesta: Git es un programa de software para rastrear cambios en el código de forma local, 
+mientras que GitHub es una plataforma en la nube para guardar y compartir 
+esos proyectos con otros
+
+2. ¿Qué función cumple el área de stage?
+Respuesta: Es una zona intermedia donde se preparan los archivos seleccionados 
+mediante `git add` antes de confirmarlos permanentemente en un commit
+3. ¿Para qué sirve un commit?
+Respuesta: guarda permanentemente una instantánea de los cambios preparados 
+(en el área staging) en el historial de tu repositorio
+
+4. ¿Cuál es la función del archivo .gitignore?
+Respuesta: Sirve para indicarle a Git qué archivos o carpetas 
+de un proyecto no deben ser rastreados ni subidos a un repositorio remoto
+
+5. ¿Por qué no debe almacenarse normalmente el entorno virtual .venv en GitHub?
+Respuesta: orque contiene archivos temporales,binarios y dependencias 
+específicas de la arquitectura de tu computadora local.
+
+6. ¿Qué relación existe entre el repositorio local y el repositorio remoto?
+Respuesta: Es de sincronización y dependencia mutua, 
+donde el local vive en tu computadora y el remoto en un servidor externo 
+(GitHub, GitLab y Bitbucket) 
+
+7. ¿Qué diferencia existe entre ejecutar commit y ejecutar push?
+Respuesta: el commit registar el cambio y el push lo sube a GitHub
+
